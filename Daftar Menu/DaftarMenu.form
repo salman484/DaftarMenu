@@ -1,0 +1,472 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="629" max="32767" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TOTAL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="559" max="32767" attributes="0"/>
+                      <Component id="lblTJlh" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                      <Component id="lblTBayar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="398" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cboxAlpukat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxMelon" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxMangga" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxJeruk" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxTehManis" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxAyamSayur" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxNasi" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxAyamGeprek" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxAyamBakar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboxNasiGoreng" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtJlhAyamSayur" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhNasiGoreng" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhAyamBakar" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhAyamGeprek" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhNasi" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhTehManis" alignment="0" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhJeruk" alignment="0" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhMangga" alignment="0" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhMelon" alignment="0" pref="70" max="32767" attributes="1"/>
+                          <Component id="txtJlhAlpukat" alignment="0" pref="70" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="173" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTHrgTehManis" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgJeruk" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgMangga" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgMelon" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgAlpukat" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgNasiGoreng" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgAyamSayur" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgNasi" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgAyamGeprek" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTHrgAyamBakar" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="288" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cboxNasiGoreng" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgNasiGoreng" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhNasiGoreng" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxAyamBakar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgAyamBakar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhAyamBakar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxAyamGeprek" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgAyamGeprek" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhAyamGeprek" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxNasi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgNasi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhNasi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxAyamSayur" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgAyamSayur" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhAyamSayur" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cboxTehManis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgTehManis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhTehManis" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxJeruk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgJeruk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhJeruk" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxMangga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgMangga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhMangga" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxMelon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgMelon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhMelon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cboxAlpukat" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTHrgAlpukat" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtJlhAlpukat" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTJlh" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTBayar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TOTAL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salman Suranta Cafe&apos;s "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Menu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Qty"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Harga"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Makanan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Minuman"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxNasiGoreng">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nasi Goreng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxAyamBakar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ayam bakar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxAyamGeprek">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ayam geprek"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxNasi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nasi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxAyamSayur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ayam sayur"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxTehManis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Es teh manis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxJeruk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Es jeruk"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxMangga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jus mangga"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxMelon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jus melon"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cboxAlpukat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jus alpukat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="12000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="15000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="12000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel28">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10000"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhNasiGoreng">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhAyamBakar">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhAyamGeprek">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhNasi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhAyamSayur">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhTehManis">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhJeruk">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhMangga">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhAlpukat">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtJlhMelon">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgNasiGoreng">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgAyamBakar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgAyamGeprek">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgNasi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgAyamSayur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgTehManis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgJeruk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgMangga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgMelon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTHrgAlpukat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTJlh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0 Porsi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTBayar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rp.0,-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TOTAL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Bayar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hitung"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Keluar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
